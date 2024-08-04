@@ -57,4 +57,18 @@ const Home = () => {
   );
 };
 
-export default Home;
+//export default Home;
+
+// pages/index.js
+import NotificationInbox from '../components/NotificationInbox';
+
+const HomePage = () => {
+  return (
+    <div>
+      <h1>Welcome to My Next.js App</h1>
+      <NotificationInbox />
+    </div>
+  );
+};
+
+export default HomePage;
